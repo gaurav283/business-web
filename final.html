@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://s-media-cache-ak0.pinimg.com/736x/39/58/ae/3958ae534668036ac4efb8ea1b37e338.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBge8wofidQtUtTkkh_T5zB0XfPAOAlxne3IVLctTHM0YyqDRK">
+    <h1>DIGITAL INDIA</h1>
+    <ul>
+      <li><a href="https://www.google.co.in/search?q=introduction+to+electronics+components&oq=introduction+to+electronics+components&aqs=chrome..69i57j0l5.21845j0j4&sourceid=chrome&ie=UTF-8">introduction</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Gadget">about</a></li>
+      <li><a href="#">start up</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>CUTTING-EDGE TECHNOLOGY</h2>
+    <p>We have latest gizmos that make life simpler (or just more cool) so you can focus on the important stuff: Android, iPhone, and Windows phone and tablet accessories you won't find at the corner store, plus home automation, LED lights and USB devices, automotive tech, spy gear, camera accessories, and wireless solutions.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>HP Stream Mini</h2>
+    <p>Inside this cute and compact box is a 1.4Ghz Celeron processor, 2GB RAM, 32GB SSD and built-in WiFi Bluetooth connectivity. The US$180 you spend on it gets you dual display (DisplayPort + HDMI), 4 x USB 3.0 ports, Ethernet and headphone. The price includes keyboard, mouse & Windows 8.1.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Canon CS100 Media Station</h2>
+    <p>This US$299 device has a built-in 1 TB hard drive, SD and CF card slots, Ethernet port, HDMI as well as WiFi and NFC connectivity. You can use it to transfer store photos and videos from a camera (directly or wirelessly) and then connect it to a TV or projector for viewing using the remote for convenience.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
